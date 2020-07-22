@@ -1,0 +1,127 @@
+/* body{
+    color:#3d6270;
+    font-family:arial; 
+    text-align:center;
+    max-width:650px;
+    margin: 10px;
+    padding:0 16px; 
+    background-color: bisque;
+    flex-direction:column;
+    display:flex;
+    min-height:100vh;
+    
+} */
+
+footer{
+color:black;
+margin-top:16;
+
+text-align:center;
+
+}
+
+header {
+margin-top:16px;
+margin-bottom: 50px;
+text-align:center;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+header a {
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    background-color:#dff7f7;
+    box-sizing: border-box;
+    border: 3px solid #045680;
+    text-align:center;
+}
+.portrait{
+    width:250px;
+
+
+}
+.mohitnaraz{
+    flex-grow:1;
+    text-align:center;
+}
+
+input{
+    border: 2px solid #045680;
+    padding:8px;
+    width:75%;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+button{
+    cursor: pointer;
+    border:2px solid #045680;
+    background:#def2fc;
+    color: black;
+    padding:8px
+}
+.datahere{
+    background-color: black;
+    color:rgb(192, 19, 77);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding:10px 10px 10px 10px;
+}
+
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("image-2.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+  
